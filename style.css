@@ -444,6 +444,143 @@ h5 {
   font-size: 0.85rem;
 }
 
+/* Desktop Version */
+@media screen and (min-width: 768px) {
+  /* <<<<<<<  Navbar >>>>>>> */
+
+  .social-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #444343;
+    min-height: 30px;
+  }
+
+  .social-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10rem;
+  }
+
+  .social-menu .social-item {
+    margin: 0 0.375rem;
+  }
+
+  .social-link {
+    color: #fff;
+    font-size: 0.75rem;
+  }
+
+  .navbar > a {
+    transition: all 0.5s ease-out;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .nav-branding {
+    font-size: 1.5rem;
+    color: #272a31;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 0 140px;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    padding-left: 2rem;
+  }
+
+  .container {
+    padding: 4rem 10rem;
+  }
+
+  .headline h1 {
+    font-size: 3.5rem;
+  }
+
+  .headline p {
+    font-size: 2rem;
+  }
+
+  .headline-box {
+    width: 600px;
+  }
+
+  .headline-box p {
+    line-height: 1.5;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .headline-start h2 {
+    font-size: 2rem;
+  }
+
+  .contanier-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .program-card {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .see-more {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 0.85rem;
+  }
+
+  .see-more:hover {
+    color: #ec5242;
+  }
+
+  .text-card {
+    max-width: 60%;
+  }
+
+  .btn-join {
+    display: none;
+  }
+
+  .warpper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .part-logo {
+    width: 150px;
+  }
+}
+
 
 /* about page */
 .welcome {
