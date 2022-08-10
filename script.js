@@ -16,11 +16,11 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const speakers = [
   {
     id: 1,
-    img: './images/Chuck-Robbins.webp',
-    name: 'Chuck Robbins',
-    bio: 'Chuck Robbins is the CEO of Cisco and a member of its Board of Directors.',
+    img: './images/IMG_2128.JPG',
+    name: 'Alaa Shaheen',
+    bio: 'Alaa Shaheen is a Digital Security Trainer.',
     about:
-        'Chuck has more than 20 years of leadership experience and over 19 years at Cisco. He began his career as an application developer and worked as an app developer for North Carolina National Bank',
+        'Alaa has more than 5 years of leadership experience of digital security training and 6 years as a math teacher. She learning now programming to become a Full-Stack Developer.',
   },
   {
     id: 2,
