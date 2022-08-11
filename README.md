@@ -59,7 +59,7 @@ The video description of the  project can be accessed using [this loom link](htt
 ## Acknowledgments
 
 - Thanks to the reviewers
-- etc
+- Thanks to Cindy Shin the author of the original desig
 
 ## 📝 License
 
