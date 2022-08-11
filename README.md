@@ -20,7 +20,6 @@
 
 
 ## Authors
-👤 **Simon Gideon**
 👤 **Alaa Shaheen**
 
 - GitHub: [@AlaaShaheen2](https://github.com/AlaaShaheen2)
@@ -62,5 +61,6 @@ The video description of the  project can be accessed using [this loom link](htt
 - Thanks to Cindy Shin the author of the original desig
 
 ## 📝 License
+[@Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 This project is [MIT](./MIT.md) licensed.
