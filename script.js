@@ -16,11 +16,11 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const speakers = [
   {
     id: 1,
-    img: './images/IMG_2128.JPG',
+    img: './images/IMG_1813.JPG',
     name: 'Alaa Shaheen',
     bio: 'Alaa Shaheen is a Digital Security Trainer.',
     about:
-        'Alaa has more than 5 years of leadership experience of digital security training and 6 years as a math teacher. She learning now programming to become a Full-Stack Developer.',
+        'Alaa has more than 5 years of leadership experience of digital security training and 6 years as a math teacher. She learning now programming to become a Full-Stack',
   },
   {
     id: 2,

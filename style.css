@@ -39,7 +39,6 @@ a {
   align-items: center;
   padding: 0 20px;
   min-height: 70px;
-  background: #fff;
 }
 
 .nav-link {
@@ -491,6 +490,7 @@ h5 {
     display: flex;
     flex-direction: row;
     margin: 0 140px;
+    background: #fff;
   }
 
   .nav-menu {
@@ -602,6 +602,9 @@ h5 {
   line-height: 1.5;
   color: #ec5242;
   margin-bottom: 1rem;
+}
+
+.welcome-about {
   text-align: center;
 }
 
@@ -776,4 +779,73 @@ h5 {
   font-size: 1.2rem;
   text-align: center;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome {
+    height: 90vh;
+  }
+
+  .welcome-text h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-msg {
+    font-size: 1.8rem;
+  }
+
+  .modal-desktop {
+    display: block;
+    width: 80%;
+    padding: 1.5rem 3rem;
+    margin: 0.5rem auto;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 0.8rem;
+    color: #272a31;
+    background-color: #fff;
+    transition: 0.5s ease-out;
+  }
+
+  .modal-desktop:hover {
+    transform: translateY(-0.8rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-mobile {
+    display: none;
+  }
+
+  .global {
+    height: 55vh;
+  }
+
+  #content1::after {
+    content: "";
+  }
+
+  .global-text {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .img-globe {
+    width: 50%;
+  }
+
+  .alumni {
+    height: 60vh;
+  }
+
+  .alumni-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .alumni-img {
+    margin: 2rem 0;
+  }
 }
